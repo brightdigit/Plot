@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component used to render a `<form>` element for user-submittable data.
 public struct Form: Component {
   /// The URL that the form's data should be submitted to.
   public var url: URLRepresentable

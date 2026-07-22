@@ -4,6 +4,8 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component that can be used to render a user-editable text area
+/// using the `<textarea>` element.
 public struct TextArea: InputComponent {
   /// The initial text that the text area should contain.
   public var text: String

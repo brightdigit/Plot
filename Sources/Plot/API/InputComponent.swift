@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Protocol adopted by components that render controls for user input.
 public protocol InputComponent: Component {
   /// Whether the component's element should be automatically focused.
   var isAutoFocused: Bool { get set }

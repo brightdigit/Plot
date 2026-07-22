@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component used to render an `<img>` element for displaying an image.
 public struct Image: Component {
   /// The URL of the image to render.
   public var url: URLRepresentable

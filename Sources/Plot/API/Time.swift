@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component that represents a datetime instance
 public struct Time: Component {
   /// The datetime that the element represents
   public var datetime: String?

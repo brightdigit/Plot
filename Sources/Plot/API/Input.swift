@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component used to render input controls using the `<input>` element.
 public struct Input: InputComponent {
   /// The type of input to render. See `HTMLInputType` for more info.
   public var type: HTMLInputType

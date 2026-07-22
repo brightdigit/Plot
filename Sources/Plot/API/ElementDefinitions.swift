@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// A container component that's rendered using the `<article>` element.
 public typealias Article = ElementComponent<ElementDefinitions.Article>
 /// A container component that's rendered using the `<aside>` element.
 public typealias Aside = ElementComponent<ElementDefinitions.Aside>

@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component used to render an `<audio>` element for inline audio playback.
 public struct AudioPlayer: Component {
   /// Type used to define an audio player source, which points to an audio file.
   public struct Source {

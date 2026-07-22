@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// A language that can be assigned to an HTML document.
 public enum Language: String, Sendable {
   case abkhazian = "ab"
   case afar = "aa"

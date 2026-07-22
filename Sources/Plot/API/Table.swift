@@ -4,6 +4,15 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component used to render a `<table>` element.
+///
+/// Any non-`TableRow` component that appears within the table's `rows` closure
+/// is automatically wrapped into a `TableRow`, as to always produce semantically
+/// valid HTML.
+///
+/// When a table has either a `caption`, `header`, or `footer`, then its main rows
+/// are wrapped within a `<tbody>` element. Otherwise, the rows are rendered as
+/// direct children of the table itself.
 public struct Table: Component {
   /// The table's caption. See `TableCaption` for more information.
   public var caption: TableCaption?

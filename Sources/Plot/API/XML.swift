@@ -4,6 +4,9 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// A representation of an XML document. Create an instance of this
+/// type to build a web page using Plot's type-safe DSL, and then
+/// call the `render()` method to turn it into an XML string.
 public struct XML: DocumentFormat {
   private let document: Document<XML>
 

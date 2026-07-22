@@ -4,6 +4,11 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component used to render either plain or styled text.
+///
+/// All special characters that can't be rendered as-is within an HTML
+/// document are automatically escaped when using this component.
+/// To render raw, non-escaped HTML strings, use `Node.raw`.
 public struct Text: Component {
   /// The content and behavior of this component.
   public var body: Component { node }

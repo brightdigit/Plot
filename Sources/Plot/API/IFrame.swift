@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component used to render an `<iframe>` element for an embedded page.
 public struct IFrame: Component {
   /// The URL of the page to embed.
   public var url: URLRepresentable

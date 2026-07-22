@@ -4,6 +4,15 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component that represents a row within a table.
+///
+/// You typically only use this component to create the content for a `Table`
+/// component, although it can also be used by itself, as long as it's wrapped
+/// within an appropriate parent element (such as `<table>` or `<tbody>`).
+///
+/// Any component that appears within the row's `content` closure that isn't
+/// either a `TableCell` (for standard/footer rows) or `TableHeaderCell` (for
+/// header rows) is automatically wrapped into such a component instance.
 public struct TableRow: ComponentContainer {
   /// A closure that provides the components that the row should contain.
   @ComponentBuilder public var content: ContentProvider

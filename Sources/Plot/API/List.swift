@@ -4,6 +4,14 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component used to render a list of items, for example using a `<ul>` or
+/// `<ol>` element.
+///
+/// How a list is rendered is determined by its `ListStyle`, which defaults
+/// to `.unordered`, and can be customized using the `listStyle` modifier.
+/// By default, any non-`ListItem` component that appears within a list is
+/// automatically wrapped into a `ListItem`, as to always produce semantically
+/// valid HTML.
 public struct List<Items: Sequence>: Component {
   /// The items that the list should render.
   public var items: Items

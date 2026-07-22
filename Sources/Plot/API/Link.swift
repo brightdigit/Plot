@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component used to render a link/anchor using an `<a>` element.
 public struct Link: Component {
   /// The URL that the link should point to.
   public var url: URLRepresentable

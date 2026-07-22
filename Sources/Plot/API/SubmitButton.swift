@@ -4,6 +4,8 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Convenience type that can be used to create an `Input` component
+/// for submitting an HTML form.
 public struct SubmitButton: Component {
   /// The name of the component's element. Maps to the `name` attribute.
   public var name: String?

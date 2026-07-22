@@ -4,6 +4,8 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Component used to wrap another component within a `<label>` element, which
+/// is typically used to add interactive labels to inputs within a form.
 public struct Label: Component {
   /// The text that the label should display.
   public var text: Text
