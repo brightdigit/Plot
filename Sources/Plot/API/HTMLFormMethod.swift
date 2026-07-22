@@ -1,6 +1,6 @@
 /**
 *  Plot
-*  Copyright (c) John Sundell 2020
+*  Copyright (c) John Sundell 2021
 *  MIT license, see LICENSE file for details
 */
 
