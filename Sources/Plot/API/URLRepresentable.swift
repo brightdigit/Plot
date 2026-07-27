@@ -1,6 +1,6 @@
 /**
 *  Plot
-*  Copyright (c) John Sundell 2019
+*  Copyright (c) John Sundell 2021
 *  MIT license, see LICENSE file for details
 */
 
@@ -14,6 +14,6 @@ public protocol URLRepresentable: CustomStringConvertible {}
 extension URL: URLRepresentable {}
 extension String: URLRepresentable {}
 
-internal extension URLRepresentable {
-    var string: String { description }
+extension URLRepresentable {
+  internal var string: String { description }
 }
